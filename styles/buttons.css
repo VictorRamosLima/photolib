@@ -1,0 +1,29 @@
+button {
+  padding: 5px 9px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+  border-radius: 0.25rem;
+}
+
+button.fetch-images {
+  padding: 1rem 15rem;
+  background-color: #0f1923;
+  color: #ff4655;
+}
+
+button:hover {
+  filter: brightness(0.8);
+}
+
+a {
+  cursor: pointer;
+  color: #0f1923;
+  transition: all 0.3s;
+}
+
+a.js-remove {
+  color: #ff4655;
+}

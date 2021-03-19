@@ -1,0 +1,32 @@
+.image-library {
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 1500px;
+  
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+
+.image-item {
+  margin-bottom: 2rem;
+}
+
+.image-item:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.annotation-space {
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.break-paragraph-line {
+  max-width: 400px;
+  word-break: break-all;
+}
